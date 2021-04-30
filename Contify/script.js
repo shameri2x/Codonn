@@ -43,4 +43,3 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
     node.addEventListener('animationend', handleAnimationEnd);
 });
 
-AOS.init();
